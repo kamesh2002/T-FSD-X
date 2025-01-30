@@ -41,7 +41,7 @@ const LoginPage = () => {
 			}
 		},
 		onSuccess: () => {
-			// refetch the authUser
+			// refetch the
 			queryClient.invalidateQueries({ queryKey: ["authUser"] });
 		},
 	});
